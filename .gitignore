@@ -1,0 +1,49 @@
+# *.txt
+.ipynb_checkpoints/
+.eggs/
+build/
+*.egg-info/
+# data/
+# logs/
+*.json
+tensorRF/
+*.zip
+drums/
+**/__pycache__/
+*.pyc
+.idea/
+*.pdf
+*.svg
+*.so
+*.out
+# *.png
+# *.jpg
+# *.ckpt
+# *.pth
+*.npy
+*.gif
+style/
+styles/
+*.DS_Store
+
+*.cudafe.*
+*.cudafe1.*
+*.cpp4.*
+*.cpp1.*
+*.fatbin*
+*.module_id
+*.ptx
+*.cubin
+*.ncu-rep
+*.ncu-proj
+
+autodidact/
+assets/
+
+tmp
+logs
+data
+rendering_results/
+style/
+styles/
+

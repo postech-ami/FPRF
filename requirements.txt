@@ -1,0 +1,10 @@
+kmeans_pytorch
+matplotlib
+pandas
+imageio
+tqdm
+opencv-python
+tensorboard
+scikit-image
+torchmetrics
+lpips
