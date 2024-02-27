@@ -43,7 +43,7 @@ PYTHONPATH=. python plenoxels/main.py --config-path plenoxels/configs/final/LLFF
 You can change the scene by editing config files in ./plenoxels/configs/final/LLFF/.
 
 ## Style transfer 
-Run below commands to transfer the style of a 3D scene to the refernece images in ./referneces.
+Run below commands to transfer the style of a 3D scene to the refernece images in ./references.
 
 ```bash
 PYTHONPATH=. python plenoxels/main.py --config-path plenoxels/configs/final/LLFF/llff_flower.py --log-dir logs/flower --render-only
