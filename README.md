@@ -69,12 +69,10 @@ To inference with a checkpoint, please download a model.pth file from [this link
 If you find our code or paper helps, please consider citing:
 ````BibTeX
 @misc{kim2024fprf,
-      title={FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields}, 
+      title={{FPRF}: Feed-Forward Photorealistic Style Transfer of Large-Scale {3D} Neural Radiance Fields}, 
       author={GeonU Kim and Kim Youwang and Tae-Hyun Oh},
       year={2024},
-      eprint={2401.05516},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
 }
 ````
 
