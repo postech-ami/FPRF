@@ -38,7 +38,9 @@ class BaseDataset(Dataset, ABC):
         self.rays_o = rays_o
         self.rays_d = rays_d
         self.imgs = imgs
-        if self.imgs is not None:
+        if self.split == "render": 
+            self.num_samples = len(self.poses)
+        elif self.imgs is not None:
             self.num_samples = len(self.imgs)
         elif self.rays_o is not None:
             self.num_samples = len(self.rays_o)
@@ -104,6 +106,8 @@ class BaseDataset(Dataset, ABC):
     def __len__(self):
         if self.split == 'train':
             return (self.num_samples + self.batch_size - 1) // self.batch_size
+        elif self.split == 'render':
+            return len(self.poses)
         else:
             return self.num_samples
 

@@ -37,9 +37,9 @@ class LLFFDataset(BaseDataset):
         self.hold_every = hold_every
         self.near_scaling = near_scaling
         self.ndc_far = ndc_far
-        semantic_features = torch.zeros(10)
-        vgg_features = torch.zeros(10)
-        imgs = torch.zeros(10)
+        semantic_features = torch.zeros(120)
+        vgg_features = torch.zeros(120)
+        imgs = torch.zeros(120)
 
         if split == 'render':
             # For rendering path we load all poses, use them to generate spiral poses.

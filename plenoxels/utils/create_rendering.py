@@ -24,7 +24,8 @@ def render_to_path(trainer, extra_name: str = "") -> None:
     pb = tqdm(total=100, desc=f"Rendering scene")
     frames = []
   
-    for img_idx, data in enumerate(dataset):
+    for img_idx in range(len(dataset)):
+        data = dataset[img_idx]
         ts_render = trainer.eval_step(data)
         if isinstance(dataset.img_h, int):
             img_h, img_w = dataset.img_h, dataset.img_w
