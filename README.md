@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### Download the LLFF Datasets
-To run FPRF, please download the [LLFF dataset](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1) and put it in ./data. 
+To run FPRF, please download the [LLFF dataset](https://www.kaggle.com/datasets/arenagrenade/llff-dataset-full) and put it in ./data. 
 
 ## Training Scene
 Run below commands to train a stylizable 3D scene. 
